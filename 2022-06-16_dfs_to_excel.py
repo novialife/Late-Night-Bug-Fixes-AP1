@@ -1,5 +1,13 @@
 import pandas as pd
 
+"""
+USEFUL LINKS:
+https://xlsxwriter.readthedocs.io/worksheet.html#add_table
+https://pandas-xlsxwriter-charts.readthedocs.io/chart_grouped_column.html#chart-grouped-column
+
+"""
+
+
 def main():
     df = pd.DataFrame({'num_legs': [2, 4, 8, 0],
                    'num_wings': [2, 0, 0, 0],
